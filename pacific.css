@@ -7,7 +7,8 @@ header { background-color: #000033;
          color: #FFFFFF;
 		 font-family: Georgia, serif;
 }
-h1 { background-image: url(sunset.jpg); no-repeat right;;
+h1 { background-image: url(sunset.jpg);
+  background-image: no-repeat right;
   padding-left: 2em;
   height: 72px;
   margin-bottom: 0;
@@ -40,17 +41,19 @@ footer { padding: 1em;
   font-style: italic;
 	text-align: center;
 }
-#homehero {background-size: 100% 100%; no repeat;
+#homehero {background-size: 100% 100%;
   height: 300px;
   background-image: url(coast.jpg);
+  background-image: no repeat;
 }
 #yurthero {background-size: 100% 100%; no repeat;
   height: 300px;
   background-image: url(yurt.jpg);
 }
-#trailhero {background-size: 100% 100%; no repeat;
+#trailhero {background-size: 100% 100%;
   height: 300px;
   background-image: url(trail.jpg);
+  background-image: no repeat;
 }
 #wrapper { background-color: #FFFFFF;
   min-width: 700px;
